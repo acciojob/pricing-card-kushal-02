@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+body {
+	font-family : "Times New Roman" 
+}
+#main-container{
+	width : 50%;
+	height : 500px;
+	border-radius : 6px;
+	margin : auto;
+	padding : 0;
+	background-color : #F1F1F1;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img{
+		width : 70%;
+		height : 200px;
+	    margin-bottom : 10px;
+	    
+}
+h1{
+	font-size : 40px;
+	margin : 0;
+}
+p{
+		
+		margin : 0;
+		width : 40%;
+}
+.btn{
+	border : none;
+	background-color : #FE625A;
+	border-radius : 15px;
+	font-size : 25px;
+	width : 45%;
+	height : 12%;
+	margin : 20px;
+	display: flex;
+	
+  align-items: center;
+  justify-content: center;
+	color : white;
+}
